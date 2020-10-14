@@ -1,17 +1,17 @@
 
-require "/scripts/util.lua"
+require '/scripts/util.lua'
 
 function init()
-  conf = root.assetJson("/scripts/player/bigballoons/bigballoons.config")
+  conf = root.assetJson('/scripts/player/bigballoons/bigballoons.config')
 
   local startContents = {}
   for _, s in ipairs(conf.substances) do
     startContents[s] = 0.0
   end
 
-  player.setProperty("bigballoons", {substanceAmounts = startContents})
+  player.setProperty('bigballoons', {substanceAmounts = startContents})
 
-  status.addEphemeralEffect("bbjuicetint")
+  status.addEphemeralEffect('bbjuicetint')
 end
 
 function update(dt)
@@ -19,7 +19,7 @@ function update(dt)
 end
 
 function applyEffects()
-  local playerState = player.getProperty("bigballoons")
+  local playerState = player.getProperty('bigballoons')
   local playerAmounts = playerState.substanceAmounts
   local effects = conf.substanceEffects
   local totalAmount = 0.0
@@ -33,13 +33,33 @@ function applyEffects()
     fillAmount = fillAmount + amount * (conf.amountFactors[s] or 1.0)
 
     for _, e in ipairs(conf.additiveEffects) do
+      local pathSplit = util.split(e, '/')
+      local parameters = movementParameters
+      local property = e
+      if #pathSplit > 1 then
+        parameters = jsonpath(movementParameters, pathSplit[1])
+        property = pathSplit[2]
+      end
+
       if effects[s][e] and movementParameters[e] then
-        movementParameters[e] = movementParameters[e] + util.lerp(amount, 0.0, effects[s][e])
+        local addend = 0.0
+        if type(effects[s][e]) == 'number' then
+          addend = util.lerp(amount, 0.0, effects[s][e])
+        elseif type(effects[s][e]) == 'string' then
+          addend = root.evalFunction(effects[s][e], amount)
+        end
+        movementParameters[e] = movementParameters[e] + addend
       end
     end
     for _, e in ipairs(conf.multiplicativeEffects) do
       if effects[s][e] and movementParameters[e] then
-        movementParameters[e] = movementParameters[e] * util.lerp(amount, 1.0, effects[s][e])
+        local factor = 1.0
+        if type(effects[s][e]) == 'number' then
+          factor = util.lerp(amount, 1.0, effects[s][e])
+        elseif type(effects[s][e]) == 'string' then
+          factor = root.evalFunction(effects[s][e], amount)
+        end
+        movementParameters[e] = movementParameters[e] * factor
       end
     end
     for _, e in ipairs(conf.jumpEffects) do
@@ -99,9 +119,9 @@ function applyTint(factor)
   local tintString = toHex(r)..toHex(g)..toHex(b)
 
   -- doesn't work, maybe because it gets overridden in stats/player_primary.lua, lines 200-208
-  -- status.setPrimaryDirectives("?multiply="..tintString)
+  -- status.setPrimaryDirectives('?multiply='..tintString)
 
-  world.sendEntityMessage(player.id(), "bigballoons_adjustTint", tintString)
+  world.sendEntityMessage(player.id(), 'bigballoons_adjustTint', tintString)
 end
 
 function showIndicator(amount)
