@@ -1,0 +1,30 @@
+{
+  "id" : "underpressure4",
+  "title" : "Captain's Log: Day 412",
+  "description" : "A hand-written Protectorate journal. The letters are huge!",
+  "icon" : "protectoratecover1.png",
+  "contentPages" : [
+    "We came across an Avian space station a few days ago. I didn't even need to hail them- they just pulled us in without a second thought. The place is absolutely massive- and we quickly found out why.",
+
+"They lost cabin pressure themselves years prior- they're just as big and puffy as us. They call themselves the \"Cloud Breathers\" and say that they've reached Kluex without the need of a sacrifice. They're naturally really damn happy about it, which I honestly can't tell is good or bad anymore.",
+
+"We're not the only ones, either. At least two other ships bumped into them over the years, another Protectorate ship and a Floran Vessel. The simple fact that the latter is getting along with our \"hosts\" at all hurts my brain.
+
+Only so much of the crew were willing to get some fresh air- \"too comfy, can't leave\", the others say. Their loss, I say.",
+
+"After a year and a half of being cramped in the bridge, this place is heaven. BIG hallways where we aren't constantly squeezing against each other, and fresh air provided by plants. We even have fresh clothes! It's just underwear that doesn't leave much to imagination, but I almost forgot what modesty even was, so I can be thankful that the Cloud Breathers remember it.",
+
+"For the first time for a LONG time, I've actually felt something other than despair on this station. Kiina and Sawaki came to me asking if I'd \"lighten up\", and because I was in a good mood, I actually gave them their wish.
+
+It was... a lot. It was a lot. It was the pleasure I felt in the bridge to the fourth power. We are all so pillowy and warm... and the sheer rush I got from soft feathers and smooth skin against my own was overwhelming. Orgasmic, even. I want to do it again sometime.",
+
+"I could be mortified, horrified and paralyzed from feeling all of this, but I frankly don't have the energy to care anymore. The fact that we're not alone and don't HAVE to be alone in being a bunch of big balloons is good enough for me.
+
+We're normal SOMEWHERE, and that's all that matters now."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 50
+  }
+}

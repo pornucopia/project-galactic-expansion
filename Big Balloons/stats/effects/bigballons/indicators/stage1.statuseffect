@@ -1,0 +1,13 @@
+{
+    "name" : "bbstage1",
+    "defaultDuration" : 1.0,
+    "effectConfig" : {
+        "stage" : 1
+    },
+
+	"label": "Puffed",
+	"icon": "/interface/statuses/bigballoons/stageindicator.png:1",
+
+    "scripts" : ["stageindicator.lua"],
+    "scriptDelta" : 0
+}

@@ -1,0 +1,26 @@
+{
+  "id" : "underpressure1",
+  "title" : "Captain's Log: Day 259",
+  "description" : "A Protectorate journal with unusually sloppy handwriting.",
+  "icon" : "underpressure.png",
+  "contentPages" : [
+    "Our ship was attacked by pirates a few days ago. It was part of the routine as this point and we knew how to handle them- and that was our big mistake. They managed to hit us right in the atmospheric controls as they were retreating, and we have lost various environmental controls- including cabin pressure.
+
+We all knew that some bodily expansion would happen when a ship isn't properly pressurized, but we would've never guessed the sheer severity- we're damn zeppelins.",
+
+"Most of us were stuck where we were standing when we lost the pressure, and the rest could only navigate smaller, wider sections of the ship. We've managed to restructure it all so that we're all in larger, spacey rooms, but we still have to keep the emergency automation running, and it's still way too cramped and intimate for a lot of us to be at all comfortable.",
+
+"We can't stay professional like this. All of our outfits burst off when we inflated, and we have no sewing machines that can fit us- we're all just in our underwear, if even that. The sheer tightness and fullness in us all is oppressive and mind-blurring. We're constantly bumping into each other in awkward or inappropriate ways. We're barely people anymore- we're balloons in a twisted, nightmarish ball pit.",
+
+"More and more of us are even starting to like this madness. Kiina herself is telling me I look \"cute\" like this! If my arms weren't so damn stubby, I'd bop her right in the beak.
+
+It's taking a lot of willpower to even write this- I've managed to get a drone to work with my pudgy fingers. I don't even care if it looks awful; I just want to prove that I'm still, in fact, a human being and not a damn party favor.",
+
+"I pray that we can repair the atmospheric controls soon- or at least get help before we burst..."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 50
+  }
+}

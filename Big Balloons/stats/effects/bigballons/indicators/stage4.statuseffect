@@ -1,0 +1,13 @@
+{
+    "name" : "bbstage4",
+    "defaultDuration" : 1.0,
+    "effectConfig" : {
+        "stage" : 4
+    },
+
+	"label": "Near Limit",
+	"icon": "/interface/statuses/bigballoons/stageindicator.png:4",
+
+    "scripts" : ["stageindicator.lua"],
+    "scriptDelta" : 0
+}

@@ -1,0 +1,8 @@
+{
+    "name" : "bbjuicetint",
+    "defaultDuration" : 1.0,
+    "effectConfig" : {},
+
+    "scripts" : ["juicetint.lua"],
+    "scriptDelta" : 1
+}

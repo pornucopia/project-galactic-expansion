@@ -1,0 +1,33 @@
+{
+  "id" : "novagasgiant",
+  "species" : "apex",
+  "title" : "Helium's Effects on Novakids",
+  "description" : "A recording of some... questionable experiments.",
+  "icon" : "novagasgiant.png",
+  "contentPages" : [
+    "Novakids are some of the most mysterious sapient beings known to Apex-kind. Where did they come from? How do they function? The purpose of our research here is to try and determine the latter.",
+
+"I have been assigned to our gas giant -based research facility at [REDACTED]. Due to hydrogen's volatility and our unwillingness to throw away valuable resources when we have a cheaper and safer alternative to try first, we've been harvesting helium from [REDACTED]'s atmosphere for the test instead. The decision to use hydrogen in the tests hasn't yet been made.
+
+These tests are mainly to determine Novakids' reactions to common fusion elements, such as helium, due to Novakids' stellar-plasma based nature.",
+
+"Test #1: For this test, a Novakid subject was placed in a chamber, and the oxygen within is slowly replaced with helium.
+
+Result: Subject notes confusion and laughs at the sound of its own, higher pitched, voice. Test is ended when all gasses in the room are replaced with helium and no reactions beside higher pitched noises occur.",
+
+"Test #2: For the second test, we're taking a more invasive approach. Using a specially designed hose and mask, we will introduce helium into the Novakid's body.
+
+Results: Subject initially reacts with displeasure as helium is applied into its body, but not pain. The subject begins to noticeably bloat from internal pressure, even as the subject's luminosity increases and the subject expresses embarrassment and slight fear.",
+
+"Test is continued. Subject struggles fruitlessly as it inflates, begins floating due to increased buoyancy and its luminosity increases further. No strain from internal pressure is observed. Test is aborted when luminosity exceeds safe limit for Apex eyes. Subject is noted to have been made largely ovoid in shape from internal pressure, the subject's height increased by its inflation as well their body having become mostly spherical. Subject is recorded to have a diameter of approximately 4 meters.",
+
+"It is in my opinion that our research is already giving useful data on Novakid physiology, and can potentially result in useful innovations in nuclear physics, nuclear fusion reactors and other such high-energy fields.
+
+I will obediently continue testing and will be awaiting any further instruction."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 50
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "name" : "bbstage0",
+    "defaultDuration" : 1.0,
+    "effectConfig" : {
+        "stage" : 0
+    },
+
+	"label": "Flat",
+	"icon": "/interface/statuses/bigballoons/stageindicator.png:0",
+
+    "scripts" : ["stageindicator.lua"],
+    "scriptDelta" : 0
+}

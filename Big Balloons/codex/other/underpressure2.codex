@@ -1,0 +1,24 @@
+{
+  "id" : "underpressure2",
+  "title" : "Captain's Log: Day 302",
+  "description" : "A hastily written Protectorate journal. Various pages are scribbled over.",
+  "icon" : "underpressure.png",
+  "contentPages" : [
+    "None of our automated distress calls have been answered. All our attempts to re-establish cabin pressure ourselves have failed. Our Erchius reserves have run out completely. We're lightyears away from the nearest moon. We are still a bunch of big, fat blimps.",
+
+"And we're still getting bigger. It wasn't noticeable at first- about an inch over the course of a few weeks. But we're still bloating, and from what we can tell we're just gonna keep bloating and bloating until SOMETHING happens. And yet no one cares.",
+
+"It's complete anarchy on this ship now. Most of the crew is now completely intoxicated by our condition and are deliberately bopping up against each other in bizarre balloon orgies. Our engineering staff have even built an extra room into the ship against my orders PURELY for these activities, and they often try to cram as many in as possible for \"maximum pleasure\". Just seeing them all squished into one spot, cooing and moaning all the while as they squirm around and squeak- it's just... awful. And yet I can't look away.",
+
+"Kiina is trying to convince me to join in, saying that I'll \"understand it once I get the feel\"! How can the chief medical officer not see the sheer horrific insanity of this situation?! We're lost in space with no warp fuel, trapped as bloated parodies of ourselves, and we're going to explode!",
+
+"Even I'M starting to feel the pressure lull me into some insidious euphoria every so often, and I always have to fight it back with every fiber of my being. It's getting harder to write, but until my hands are welded shut I will keep sending out this call:
+
+\"PROTECTORATE SHIP DAMAGED. CABIN PRESSURE LOST. PLEASE SEND HELP. WE ARE GOING TO EXPLODE.\""
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 50
+  }
+}

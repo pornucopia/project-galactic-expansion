@@ -1,0 +1,31 @@
+{
+  "id" : "bluemeatbook",
+  "species" : "floran",
+  "title" : "Marinated Blue Meatbook",
+  "description" : "A Floran cookbook. It's covered in large, blue stains.",
+  "icon" : "bluemeatbook.png",
+  "contentPages" : [
+  "NEEDS:
+
+1 Fire for cooking
+1 Meats
+Berries",
+
+"Step 1: Tie meats up at hands and feets
+Step 2: Feed meats berries (not with hands)
+Step Three: Wait for meats to become blue meats (do not taste)
+Step 4: Wait for blue meats to marinate (still do not taste)
+5: Cook meats (big fire)
+Step 6: Eat meats",
+
+"Notes: Cooking is easier if meat is not screaming.
+New meat is required if meat bursts (recommend feed old meats juice to new meats)
+Eating blue meats will turn Floran into berry. Moving gets hard
+Floran is berry right now. Writing hard. Tasty, though"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 50
+  }
+}

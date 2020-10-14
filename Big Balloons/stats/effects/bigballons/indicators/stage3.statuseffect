@@ -1,0 +1,13 @@
+{
+    "name" : "bbstage3",
+    "defaultDuration" : 1.0,
+    "effectConfig" : {
+        "stage" : 3
+    },
+
+	"label": "Inflated",
+	"icon": "/interface/statuses/bigballoons/stageindicator.png:3",
+
+    "scripts" : ["stageindicator.lua"],
+    "scriptDelta" : 0
+}

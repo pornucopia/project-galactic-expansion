@@ -1,0 +1,8 @@
+{
+  "author" : "Tobias1595",
+  "description" : "Inspired by and hommage to Dispatch's Big Fatties mod.",
+  "friendlyName" : "Big Ballons",
+  "name" : "Big Ballons",
+  "version" : "0.0.1",
+  "requires" : ["QuickbarMini"]
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "glitchstore"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/genericScriptContexts/bigballoons",
+        "value": "/scripts/player/bigballoons/bigballoons.lua"
+    }
+]

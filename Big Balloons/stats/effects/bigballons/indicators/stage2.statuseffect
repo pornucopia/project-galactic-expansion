@@ -1,0 +1,13 @@
+{
+    "name" : "bbstage2",
+    "defaultDuration" : 1.0,
+    "effectConfig" : {
+        "stage" : 2
+    },
+
+	"label": "Bloated",
+	"icon": "/interface/statuses/bigballoons/stageindicator.png:2",
+
+    "scripts" : ["stageindicator.lua"],
+    "scriptDelta" : 0
+}

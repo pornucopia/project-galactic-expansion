@@ -1,0 +1,25 @@
+{
+  "id" : "hylotlfinds",
+  "species" : "hylotl",
+  "title" : "When our Ancestors Kissed the Waves",
+  "description" : "A Hylotl scientific journal, kept in surprisingly pristine condition.",
+  "icon" : "hylotlfinds.png",
+  "contentPages" : [
+  "Seventy years ago, a team of archeologists found a ruins and tablets that predate the First Common Era of the Hylotl race. The writings found inside held a rather peculiar message once deciphered; the rough translation described a pilgrimage of people \"riding the waves on their bellies.\"
+
+This was believed to simply be metaphorical for decades, but more recent findings could tell us a different story.",
+
+"Another set of ruins, found even deeper underground than the last, had a wide variety of hieroglyphics lining the walls. Among these, one set depicted a Hylotl figure seemingly swelling up like a balloon, floating up to the surface as they grow larger. Another set shows a group of fully inflated Hylotl floating along the surface of a vast ocean, in a fashion almost identical to that described in the previously described texts.",
+
+"With this discovery in mind, studying pre-Common Era fossils has provided its own set of clues. The bone structure of most complete specimens hints that they were made to be highly elastic, and had skeletons built to make way for large lung-like air sacks.",
+
+"All of these revelations hint to the possibility that our ancient ancestors were able to inflate themselves at will, most likely as a form of buoyancy control. No one has been able to find a conclusive answer as to when and why we could have lost this ability, but many theorize it was a matter of skeletal stability.",
+
+"Author's Note: Science is WEIRD. I wonder; can this whole body-inflation thing can still be done?"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 50
+  }
+}

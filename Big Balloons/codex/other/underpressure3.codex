@@ -1,0 +1,30 @@
+{
+  "id" : "underpressure3",
+  "title" : "Captain's Log: Day 347",
+  "description" : "A Protectorate journal with entire pages ripped out. The writing is difficult to read.",
+  "icon" : "underpressure.png",
+  "contentPages" : [
+    "We're slowly drifting out of the current galaxy and are heading into deep space. Most of the crew has abandoned their posts are now going on their freaky bounce orgies non-stop. At least, a good chunk of them are- some are just content to float there and giggle stupidly whenever someone else hits them. I think they've finally cracked.",
+
+"It's just me on the bridge now. Kiina and Sawaki from the science team are the only ones bothering to keep contact. They both just want into the bridge to \"finally show me what I'm missing\". Cute.",
+
+"I don't see what I'm \"missing\", to be frank. Every time my belly, chest, or any other part of me grazes the walls or floor, I'm struck with some alien pleasure. I can't imagine what it'd be like if I touched Avian feathers or Hylotl skin...
+
+The swelling seems to have stopped. It feels more like a curse than a blessing at this point.",
+
+"It's pretty clear to me that we've angered some deity somehow and this is our punishment. Of course we'll never be able to actually fix things and be normal again- we're not allowed.
+
+I am losing all hope at this point. We have failed the Protectorate, so the Protectorate has abandoned us.",
+
+"All of this insanity will just be known as an object lesson, I just know it. I can imagine it now; \"you hear about the crew who lost cabin pressure and became a bunch of big balloons? Yeah, that was an embarrassment- I sure hope that never happens again!\"",
+
+"I can't stay on the bridge forever. I can hear the moans and cheers from just beyond the doors. Kiina's among the chorus. I'm going to have to brave the crew soon.
+
+Who knows? It might actually feel good."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 50
+  }
+}

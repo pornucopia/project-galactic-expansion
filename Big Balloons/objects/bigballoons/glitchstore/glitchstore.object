@@ -1,0 +1,87 @@
+{
+  "objectName" : "glitchstore",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "PLACEHOLDER DESCRIPTION",
+  "shortdescription" : "Big Balloons Store",
+  "race" : "generic",
+  "printable" : false,
+  "lightColor" : [46, 66, 77],
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Big Balloons",
+        "subtitle" : "^#b9b5b2;PLACEHOLDER ITEMS"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "hylotlfinds-codex" },
+      { "item" : "novagasgiant-codex" },
+      { "item" : "bluemeatbook-codex" },
+      { "item" : "underpressure1-codex" },
+      { "item" : "underpressure2-codex" },
+      { "item" : "underpressure3-codex" },
+      { "item" : "underpressure4-codex" }
+    ]
+  },
+
+  "apexDescription" : "APEX_DESC",
+  "avianDescription" : "AVIAN_DESC",
+  "floranDescription" : "FLORAN_DESC",
+  "glitchDescription" : "GLITCH_DESC",
+  "humanDescription" : "HUMAN_DESC",
+  "hylotlDescription" : "HYLOTL_DESC",
+  "novakidDescription" : "NOVAKID_DESC",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "glitchstoreleft.png:<color>.<frame>", "fullbright" : true }, { "image" : "glitchstoreleftlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+
+      "lightPosition" : [-1, 2],
+
+      "imagePosition" : [-64, 0],
+      "frames" : 15,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "interactiveSpaces": [
+        [-5, 1], [-4, 1], [-3, 1], [-2, 1], [-1, 1], [0, 1],
+        [-5, 2], [-4, 2], [-3, 2], [-2, 2], [-1, 2],
+        [-4, 3], [-3, 3], [-2, 3],
+        [-4, 4], [-3, 4], [-2, 4],
+        [-6, 5], [-5, 5], [-4, 5], [-3, 5], [-2, 5], [-1, 5], [0, 5],
+        [-6, 6], [-5, 6], [-4, 6], [-3, 6], [-2, 6], [-1, 6], [0, 6]
+      ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "glitchstoreright.png:<color>.<frame>", "fullbright" : true }, { "image" : "glitchstorerightlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "lightPosition" : [0, 2],
+
+      "imagePosition" : [-64, 0],
+      "frames" : 15,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "interactiveSpaces": [
+        [6, 1], [5, 1], [4, 1], [3, 1], [2, 1], [1, 1], [0, 1], [-1, 1],
+        [4, 2], [3, 2], [2, 2], [1, 2], [0, 2],
+        [3, 3], [2, 3], [1, 3],
+        [3, 4], [2, 4], [1, 4],
+        [5, 5], [4, 5], [3, 5], [2, 5], [1, 5], [0, 5], [-1, 5],
+        [5, 6], [4, 6], [3, 6], [2, 6], [1, 6], [0, 6], [-1, 6]
+      ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/hubbub.ogg"
+}

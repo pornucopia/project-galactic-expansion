@@ -1,0 +1,11 @@
+[
+    {
+        "op": "add",
+        "path": "/items/bigballoons:config",
+        "value": {
+            "label": "Big Balloons",
+            "icon": "/interface/statuses/levitate.png",
+            "action": ["pane", "/interface/scripted/bigballoons/bigballoonsgui.config"]
+        }
+    }
+]
