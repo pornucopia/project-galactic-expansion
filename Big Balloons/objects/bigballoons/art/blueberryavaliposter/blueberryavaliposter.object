@@ -1,0 +1,47 @@
+{
+  "objectName" : "blueberryavaliposter",
+  "colonyTags" : ["pretty","valuable","slime"],
+  "rarity" : "Uncommon",
+  "description" : "An Avali being turned into a blueberry by a mutated slime.",
+  "shortdescription" : "Big Balloons Poster",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 500,
+  "printable" : false,
+
+  "apexDescription" : "An Avali turned into a berry and then juiced... for what? Consumption?",
+  "avianDescription" : "How would that affect Avian feathers?",
+  "floranDescription" : "Blue meatss iss bad meatsss! Makesss Floran round!",
+  "glitchDescription" : "Contemplative. Would that fry my circuits if I was the victim?",
+  "humanDescription" : "That's kinda hot, not gonna lie...",
+  "hylotlDescription" : "I hope there is an antidote for such an ailment.",
+  "novakidDescription" : "Now I'd reckon that'd feel pretty darn good...",
+
+  "inventoryIcon" : "blueberryavalipostericon.png",
+  "orientations" : [
+    {
+      "image" : "blueberryavaliposter.png:<color>",
+      "imagePosition" : [-20, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "artwork"
+    ],
+    "defaultReactions" : {
+      "artwork" : [
+        [1.0, "smile"],
+        [1.0, "love"]
+      ]
+    },
+    "randomStandXRange" : [-2.5, 2.5]
+  }
+}
