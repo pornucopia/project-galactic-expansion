@@ -3,7 +3,7 @@
   "colonyTags" : ["pretty","valuable","odd"],
   "rarity" : "Uncommon",
   "description" : "It's not entirely sure what they are being inflated with, but it's probably some kind of gas.",
-  "shortdescription" : "Hose Inflated Kitsune Poster",
+  "shortdescription" : "Inflatee Kitsune Poster",
   "race" : "generic",
   "category" : "decorative",
   "price" : 500,
@@ -21,7 +21,7 @@
   "orientations" : [
     {
       "image" : "hosekitsuneposter.png:<color>",
-      "imagePosition" : [-16, -16],
+      "imagePosition" : [-12, -16],
       "frames" : 1,
       "animationCycle" : 0.5,
 
