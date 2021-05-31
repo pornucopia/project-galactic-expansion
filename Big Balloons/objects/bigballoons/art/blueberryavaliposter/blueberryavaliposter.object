@@ -21,7 +21,7 @@
   "orientations" : [
     {
       "image" : "blueberryavaliposter.png:<color>",
-      "imagePosition" : [-20, -16],
+      "imagePosition" : [-16, -16],
       "frames" : 1,
       "animationCycle" : 0.5,
 

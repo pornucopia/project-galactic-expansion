@@ -21,7 +21,7 @@
   "orientations" : [
     {
       "image" : "hosekitsuneposter.png:<color>",
-      "imagePosition" : [12, -18],
+      "imagePosition" : [-16, -16],
       "frames" : 1,
       "animationCycle" : 0.5,
 
