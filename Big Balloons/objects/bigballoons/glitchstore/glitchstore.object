@@ -26,7 +26,10 @@
       { "item" : "underpressure1-codex" },
       { "item" : "underpressure2-codex" },
       { "item" : "underpressure3-codex" },
-      { "item" : "underpressure4-codex" }
+      { "item" : "underpressure4-codex" },
+      { "item" : "blueberryavaliposter" },
+      { "item" : "hosekitsuneposter" },
+      { "item" : "planetariumadvert" }
     ]
   },
 

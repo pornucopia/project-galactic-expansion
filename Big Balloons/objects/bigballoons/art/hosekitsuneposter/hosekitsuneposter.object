@@ -1,0 +1,47 @@
+{
+  "objectName" : "hosekitsuneposter",
+  "colonyTags" : ["pretty","valuable","odd"],
+  "rarity" : "Uncommon",
+  "description" : "It's not entirely sure what they are being inflated with, but it's probably some kind of gas.",
+  "shortdescription" : "Inflatee Kitsune Poster",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 500,
+  "printable" : false,
+
+  "apexDescription" : "Wait, he's doing that willingly?",
+  "avianDescription" : "Could I finally be able to fly with a tummy like that?",
+  "floranDescription" : "Floran increassse jump height usssing gasss!",
+  "glitchDescription" : "Curious. What is the purpose for inflating oneself like this?",
+  "humanDescription" : "Rub, rub...",
+  "hylotlDescription" : "This would never fit in a Hylotl society. You wouldn't even be able swim with that!",
+  "novakidDescription" : "Would that make me glow brighter or dimmer?",
+
+  "inventoryIcon" : "hosekitsunepostericon.png",
+  "orientations" : [
+    {
+      "image" : "hosekitsuneposter.png:<color>",
+      "imagePosition" : [-12, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "artwork"
+    ],
+    "defaultReactions" : {
+      "artwork" : [
+        [1.0, "smile"],
+        [1.0, "love"]
+      ]
+    },
+    "randomStandXRange" : [-2.5, 2.5]
+  }
+}

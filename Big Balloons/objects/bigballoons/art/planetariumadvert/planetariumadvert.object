@@ -1,0 +1,48 @@
+{
+  "objectName" : "planetariumadvert",
+  "colonyTags" : ["pretty","odd"],
+  "rarity" : "Uncommon",
+  "description" : "A poster advertising the Planetarium Night Club and Brothel.",
+  "shortdescription" : "Planetarium Advertisement",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 500,
+  "printable" : false,
+
+  "apexDescription" : "That isn't even as big as you can get- do they have enough space in such an establishment?",
+  "avianDescription" : "So many people get to fly these days! I'll need to see this for myself.",
+  "floranDescription" : "Sssexy puffy lady~",
+  "glitchDescription" : "Ponderous. Not sure what kind of experience such a place would offer...",
+  "humanDescription" : "I hear that the \"smooshing\" lounges are especially sexy.",
+  "hylotlDescription" : "People actually gather around to inflate together? I never realized- it always seemed like a private thing.",
+  "novakidDescription" : "Eh, could be bigger.",
+
+  "inventoryIcon" : "planetariumadverticon.png",
+  "orientations" : [
+    {
+      "image" : "planetariumadvert.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "artwork"
+    ],
+    "defaultReactions" : {
+      "artwork" : [
+        [1.0, "smile"],
+        [1.0, "love"],
+	[1.0, "nosebleed"]
+      ]
+    },
+    "randomStandXRange" : [-2.5, 2.5]
+  }
+}
