@@ -1,0 +1,114 @@
+{
+  "globalTagDefaults" : {
+    "paletteSwaps" : ""
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "harpoonpump" : {
+        "default": "idle",
+        "states": {
+          "idle": {
+            "frames": 2,
+            "cycle": 0.3,
+            "mode": "loop"
+          },
+          "fire": {
+            "frames": 4,
+            "cycle": 0.3,
+            "mode": "loop"
+          }
+        }
+      },
+      "pumping": {
+        "default": "pump",
+        "states": {
+          "pump": {
+            "frames": 6,
+            "cycle": 0.5,
+            "mode": "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "body": {
+        "properties": {
+          "centered": true,
+          "image": "<partImage>",
+          "offset": [ 0, 0 ], // x offset is set dynamically
+          "transformationGroups": [ "weapon" ]
+        },
+
+        "partStates": {
+          "harpoonpump": {
+            "fire": {
+              "properties": {
+                "image": "<partImage>:pump.<frame>"
+              }
+            }
+          },
+
+          "pumping": {
+            "pump": {
+              "properties": {
+                "image": "<partImage>:pump.<frame>"
+              }
+            }
+          }
+        }
+      },
+
+      "projectile" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "offset" : [0, 0],
+          "transformationGroups" : ["muzzle"]
+        },
+
+        "partStates" : {
+          "pumping" : {
+            "pump" : {
+              "properties" : {
+                "image" : "<partImage>:pump.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "rotationGroups" : {
+    "weapon" : {
+      "angularVelocity" : 0
+    }
+  },
+
+  "transformationGroups" : {
+    "weapon" : {},
+    "muzzle" : {}
+  },
+
+  "particleEmitters" : {
+    "muzzleFlash" : {
+      "transformationGroups" : ["muzzle"],
+      "offsetRegion" : [0, 0, 0, 0],
+      "particles" : [ ]
+    }
+  },
+
+  "lights" : {
+    "muzzleFlash" : {
+      "active" : false,
+      "position" : [0, 0],
+      "color" : [90, 90, 0]
+    }
+  },
+
+  "sounds" : {
+    "fire" : [ ]
+  }
+}

@@ -21,33 +21,39 @@
     "muzzleFlash" : "/items/active/weapons/ranged/unrand/blueberryray/muzzleflash.png"
   },
   "animationCustom" : {
-    "animatedParts" : { "stateTypes" : { "middle" : {
-      "default" : "idle",
-      "states" : {
-        "idle" : {
-          "frames" : 6,
-          "cycle" : 0.6,
-          "mode" : "loop"
+    "animatedParts": {
+      "stateTypes": {
+        "middle": {
+          "default": "idle",
+          "states": {
+            "idle": {
+              "frames": 6,
+              "cycle": 0.6,
+              "mode": "loop"
+            }
+          }
         }
-      }}},
-      "parts" : { "middlefullbright" : {
-        "properties" : {
-          "centered" : true,
-          "offset" : [0.725, 0.15],
-          "zLevel" : 1,
-          "transformationGroups" : ["weapon"],
-          "fullbright" : true
-        },
-        "partStates" : {
-          "middle" : {
-            "idle" : {
-              "properties" : {
-                "image" : "/items/active/weapons/ranged/unrand/blueberryray/blueberryrayfullbright.png:<frame><paletteSwaps>"
+      },
+      "parts": {
+        "middlefullbright": {
+          "properties": {
+            "centered": true,
+            "offset": [ 0.725, 0.15 ],
+            "zLevel": 1,
+            "transformationGroups": [ "weapon" ],
+            "fullbright": true
+          },
+          "partStates": {
+            "middle": {
+              "idle": {
+                "properties": {
+                  "image": "/items/active/weapons/ranged/unrand/blueberryray/blueberryrayfullbright.png:<frame><paletteSwaps>"
+                }
               }
             }
           }
         }
-      }}
+      }
     },
     "sounds" : {
       "fire" : ["/sfx/gun/plasma_ar4.ogg"],

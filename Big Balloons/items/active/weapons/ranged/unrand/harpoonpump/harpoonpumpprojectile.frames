@@ -1,0 +1,16 @@
+{
+  "frameGrid": {
+    "size": [ 32, 10 ],
+    "dimensions": [ 4, 1 ],
+
+    "names": [
+      [ "pump.1", "pump.2", "pump.3", "pump.4" ]
+    ]
+  },
+
+  "aliases": {
+    "default.default": "pump.1",
+    "pump.5" : "pump.3",
+    "pump.6" : "pump.2"
+  }
+}

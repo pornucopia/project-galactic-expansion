@@ -29,7 +29,9 @@
       { "item" : "underpressure4-codex" },
       { "item" : "blueberryavaliposter" },
       { "item" : "hosekitsuneposter" },
-      { "item" : "planetariumadvert" }
+      { "item" : "planetariumadvert" },
+      { "item" : "blueberryray" },
+      { "item" : "harpoonpump" }
     ]
   },
 
